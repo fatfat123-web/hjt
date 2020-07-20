@@ -10,7 +10,7 @@
                     <div class="ring"></div>
                 </div>
             </div>
-            <audio ref="music" id="music" src="../../assets/music/cn.mp3" loop="loop" preload autoplay="autoplay"></audio>
+            <audio ref="music" id="music" src="../assets/music/cn.mp3" loop="loop" preload autoplay="autoplay"></audio>
         </div>
         <router-view/>
     </div>
@@ -22,12 +22,74 @@
             return {
                 music: false,
                 list: [
-                    require('../../assets/images/1.png'),
-                    require('../../assets/images/1.1.png'),
-                    require('../../assets/images/1.2.png'),
-                    require('../../assets/images/1.3.png'),
-                    require('../../assets/images/1.4.png'),
-                    require('../../assets/images/1.5.png'),
+                    require('../assets/images/hty.gif'),
+                    require('../assets/images/1.png'),
+                    require('../assets/images/1.1.png'),
+                    require('../assets/images/1.2.png'),
+                    require('../assets/images/1.3.png'),
+                    require('../assets/images/1.4.png'),
+                    require('../assets/images/1.5.png'),
+                    require('../assets/images/1.6.png'),
+                    require('../assets/images/1.7.png'),
+                    require('../assets/images/1.8.png'),
+                    require('../assets/images/1.9.png'),
+                    require('../assets/images/1.10.png'),
+                    require('../assets/images/2.png'),
+                    require('../assets/images/2.1.png'),
+                    require('../assets/images/2.2.png'),
+                    require('../assets/images/2.3.png'),
+                    require('../assets/images/2.4.png'),
+                    require('../assets/images/2.5.png'),
+                    require('../assets/images/3.png'),
+                    require('../assets/images/3.1.png'),
+                    require('../assets/images/3.2.png'),
+                    require('../assets/images/3.3.png'),
+                    require('../assets/images/3.4.png'),
+                    require('../assets/images/4.png'),
+                    require('../assets/images/4.1.png'),
+                    require('../assets/images/4.2.png'),
+                    require('../assets/images/4.3.png'),
+                    require('../assets/images/4.4.png'),
+                    require('../assets/images/5.1.png'),
+                    require('../assets/images/5.2.png'),
+                    require('../assets/images/5.3.png'),
+                    require('../assets/images/6.1.png'),
+                    require('../assets/images/6.3.png'),
+                    require('../assets/images/7.1.png'),
+                    require('../assets/images/7.3.png'),
+                    require('../assets/images/8.1.png'),
+                    require('../assets/images/8.2.png'),
+                    require('../assets/images/8.3.png'),
+                    require('../assets/images/9.1.png'),
+                    require('../assets/images/9.3.png'),
+                    require('../assets/images/10.1.png'),
+                    require('../assets/images/10.3.png'),
+                    require('../assets/images/11.1.png'),
+                    require('../assets/images/11.2.png'),
+                    require('../assets/images/11.4.png'),
+                    require('../assets/images/12.1.png'),
+                    require('../assets/images/12.3.png'),
+                    require('../assets/images/12.4.png'),
+                    require('../assets/images/13.1.png'),
+                    require('../assets/images/14.1.png'),
+                    require('../assets/images/14.2.png'),
+                    require('../assets/images/14.4.png'),
+                    require('../assets/images/15.1.png'),
+                    require('../assets/images/15.2.png'),
+                    require('../assets/images/15.3.png'),
+                    require('../assets/images/16.1.png'),
+                    require('../assets/images/16.2.png'),
+                    require('../assets/images/16.3.png'),
+                    require('../assets/images/17.1.png'),
+                    require('../assets/images/18.1.png'),
+                    require('../assets/images/19.1.png'),
+                    require('../assets/images/20.1.png'),
+                    require('../assets/images/20.2.png'),
+                    require('../assets/images/20.3.png'),
+                    require('../assets/images/22.1.png'),
+                    require('../assets/images/22.2.png'),
+                    require('../assets/music/cn.mp3'),
+
 
                 ],
                 isPlay: false,
@@ -39,7 +101,7 @@
                 let img = new Image()
                 img.src = item;
                 count++
-                if (count === 6) {
+                if (count === 67) {
                     this.$router.push('/one')
                 }
             }
@@ -104,12 +166,7 @@
         height: 100vh;
     }
     .rotation {
-        transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -webkit-transform: rotate(90deg);
-        -o-transform: rotate(90deg);
-        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+
         color: white;
         font-weight: 300;
         width: 5em;
@@ -118,8 +175,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        top: 5%;
-        right: 10%;
+        top: 9%;
+        left: 5%;
         position: fixed;
         letter-spacing: 2px
     }
@@ -168,8 +225,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        top: 5%;
-        right: 10%;
+        top: 9%;
+        left: 5%;
         position: fixed;
         letter-spacing: 1px;
         color: white;
